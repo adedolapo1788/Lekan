@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	  <style type="text/css">
+	  	body{
+	  		margin-top: 20px;
+	  		background-color: #EBF5FF;
+	  	}
+	  	.content{
+	  		background-color: #FCFEFF;
+	  		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	  	}
+
+	  	.section-one-a{
+	  		margin-top: .7em;
+	  		box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+	  		padding: 2em;
+	  		padding-top: 0;
+	  	}
+
+	  	.section-one-b{
+	  		margin-top: 10em;
+	  		padding: 2em;
+	  		padding-top: 0;
+	  		background-color: #F9FCFF;
+
+	  	}
+
+	  	.logo{
+	  		margin: 0 auto;
+	  		margin-bottom: 3em;
+	  	}
+	  	.relative{
+	  		position: relative;
+	  		right: -60px;
+	  		margin-right: 40px;
+	  		margin-left: 30px;
+	  	}
+	  	.icon{
+	  		position: absolute;
+	  		left: 20px;
+	  		top: 10px;
+	  	}
+
+	  	.sub-text{
+	  		color: #4D7FB4;
+	  		font-size: 1.35em;
+	  	}
+	  	.Urgent, .Urgent-text{
+	  		color:#FF0000;
+	  	}
+	  	.Urgent-text{
+	  		font-weight: 700;
+	  		margin-bottom: 5.5em;
+	  	}
+
+	  	.footer-logo{
+	  		width: 130px;
+	  		display: inline-block;
+	  	}
+	  	.footer-links{
+	  		color: grey;
+	  		font-size: .85em;
+	  	}
+
+
+
+	  	/*SECTION B*/
+	  	/*input{
+	  		width: 77%;
+	  		border-radius: 1%;
+	  		padding: 5px;
+	  	}*/
+	  	.btn{
+	  		padding-left: 90px;
+	  		padding-right: 90px;
+	  		padding-top: 12px;
+	  		padding-bottom: 12px;
+	  		border-radius: 1%;
+	  	}
+	  	.btn-one{
+	  		padding-left: 75px;
+	  		padding-right: 75px;
+	  		background-color: #0091EA;
+
+	  	}
+	  	.new{
+	  	margin-left: 70px;
+	  	font-size: 1.4em;
+	  	}
+	  	.forgotten{
+	  		font-size: .9em;
+	  		margin-right: 11px;
+	  	}
+	  </style>
+</head>
+<body class="container-fluid">
+	<div class="container content">
+		<div class="row">
+			<div class="col-md-9 col-xs-9 section-one-a">
+				<div class="row">
+					<div class="col-xs-12 col-md-12"><img src="img/loginlogo.png" class="img-responsive  logo"></div>
+				</div>   
+				<div class="row">
+					<div class="col-xs-6 col-md-6"><img src="img/medical_advice.png" class="img-responsive icon">
+						<div class="relative">
+							<h3 class="sub-text">Communicate with your doctor</h3>
+							<p>Get answers to your medical questions from the comfort of your own house</p>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6"><img src="img/test_results.png" class="img-responsive icon">
+						<div class="relative">
+							<h3 class="sub-text">Access your test results</h3>
+							<p>No more waiting for a phone call or letter-view your results and your doctor's comments within days</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-md-6"><img src="img/medications.png" class="img-responsive icon">
+						<div class="relative">
+							<h3 class="sub-text">Request prescription refills</h3>
+							<p>Send a refill request for any of your refillable medications</p>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6"><img src="img/calendar.png" class="img-responsive icon">
+						<div class="relative">
+							<h3 class="sub-text">Manage your appointments</h3>
+							<p>Schedule your next appointment, or view details of your past and upcoming appointments</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-xs-6"><h2 class="Urgent">Urgent Medical Matters</h2></div>
+					<div class="col-xs-12 col-md-12">
+						<p class="Urgent-text">Please do not use MyChart to send any messages requiring urgent attention. For urgent medical matters, contact your doctor's office or dial 911.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-md-6">
+						<img src="img/badge_apple.png" class="img-responsive  footer-logo">
+						<img src="img/badge_android.png" class="img-responsive footer-logo">
+					</div>
+					<div class="col-xs-6 col-md-6">
+						<a class="footer-links">FAQs</a>
+						<a class="footer-links">Privacy Policy</a>
+						<a class="footer-links">Terms and Conditions</a>
+						<a class="footer-links">High Contrast Theme</a>
+
+					</div>
+				</div>
+			</div>
+
+
+
+
+			<!-- SIGN UP SECION -->
+			<div class="col-md-3 col-xs-3 section-one-b">
+				<form>
+					<div class="form-group">
+						<input type="text" name="name" placeholder="MyChart Username" class="form-control">
+						<input type="password" name="password"  placeholder="Password" class="form-control">
+					</div>
+					<div class="form-group">
+						<button class="btn btn-success">SIGN IN</button>
+					</div>
+					<div class="form-group">
+						<a class="forgotten">Forgot Username?</a>
+						<a class="forgotten">Forgot Password?</a>
+					</div>
+					<div class="form-group">
+						<h3 class="new"><a>New User?</a></h3>
+					</div>
+					<div class="form-group">
+						<button class="btn btn-primary btn-one">Sign Up Now</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
